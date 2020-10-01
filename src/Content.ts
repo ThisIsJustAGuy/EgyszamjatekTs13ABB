@@ -88,9 +88,9 @@ export default class Content {
         // 12. feladat: nyertes.txt kiírása a képernyőre
         const nyertes2: string[] = nyertes.adatok;
         res.write("12. feladat: a nyertes.txt tartalma:\n");
-        res.write(`Név:${nyertes2[0]}, Forduló:${nyertes2[1]}, Tipp:${nyertes2[2]}`);
+        res.write(`Név:${nyertes2[0]}, Forduló:${nyertes2[1]}, Tipp:${nyertes2[2]}\n`);
         // <---- Fejezd be a kódolást
-        res.write("Online elérés: <a href=https://egyszamjatekts13abb.herokuapp.com/ />");
+        res.write("https://egyszamjatekts13abb.herokuapp.com/");
 
         res.write("</pre></form>");
         res.write("</body></html>");
